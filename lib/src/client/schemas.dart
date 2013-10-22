@@ -52,7 +52,7 @@ class GetResponse {
   }
 
   /** Return String representation of GetResponse */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -99,7 +99,7 @@ class ListResponse {
   }
 
   /** Return String representation of ListResponse */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -137,7 +137,7 @@ class UpdateRequest {
   }
 
   /** Return String representation of UpdateRequest */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -184,7 +184,7 @@ class WriteResult {
   }
 
   /** Return String representation of WriteResult */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
