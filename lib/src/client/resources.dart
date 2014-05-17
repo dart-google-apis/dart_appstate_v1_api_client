@@ -80,7 +80,7 @@ class StatesResource_ {
   }
 
   /**
-   * Retrieves the data corresponding to the passed key.
+   * Retrieves the data corresponding to the passed key. If the key does not exist on the server, an HTTP 404 will be returned.
    *
    * [stateKey] - The key for the data to be retrieved.
    *   Minimum: 0
